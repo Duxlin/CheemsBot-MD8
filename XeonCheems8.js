@@ -1495,53 +1495,53 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
             let me = m.sender
             let timestampe = speed()
             let latensie = speed() - timestampe
-            xeonezy = `┌☯︎❖
-➪ Hi 👋 
+            xeonezy = `┌─❖
+│ Hi 👋 
 └┬❖  ${pushname} 
 ┌┤✑  ${xeonytimewisher} 😄
-➪└☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎┈ ⳹
-➪
-└☯︎ 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊        
-➪𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-➪𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-➪𝗕𝗼𝘁 : ${global.botname}
-➪𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${ownernumber}
-➪𝗣𝗿𝗲𝗳𝗶𝘅 :  NO-PREFIX 
-➪𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
-➪𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-➪𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-➪
-└☯︎ 𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊 
-➪𝗡𝗮𝗺𝗲 : ${pushname}
-➪𝗡𝘂𝗺𝗯𝗲𝗿 : @${me.split('@')[0]}
-➪𝗣𝗿𝗲𝗺𝗶𝘂𝗺 : ${isPrem ? '✅' : `❌`}
-➪
-└☯︎ 𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 
-➪𝗧𝗶??𝗲 : ${xtime}
-➪𝗗𝗮𝘁𝗲 : ${xdate}
-└┬☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎┈ ⳹
-   ➪✑  Please Type The *MENU*
-   ➪✑  Given *BELOW*
-┌└☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎┈ ⳹
-➪❏.allmenu
-➪❏.downloadmenu
-➪❏.funmenu
-➪❏.aimenu
-➪❏.groupmenu
-➪❏.ownermenu
-➪❏.photooxymenu
-➪❏.textpromenu
-➪❏.ephoto360menu
-➪❏.animemenu
-➪❏.nsfwmenu
-➪❏.randomphotomenu
-➪❏.randomvideomenu
-➪❏.stickermenu
-➪❏.databasemenu
-➪❏.stalkermenu
-➪❏.bugmenu
-➪❏.othermenu
-└☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎┈ ⳹`
+│└────────────┈ ⳹
+│
+└─ 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊        
+│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+│𝗕𝗼𝘁 : ${global.botname}
+│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${ownernumber}
+│𝗣𝗿𝗲𝗳𝗶𝘅 :  NO-PREFIX 
+│𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
+│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
+│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+│
+└─ 𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊 
+│𝗡𝗮𝗺𝗲 : ${pushname}
+│𝗡𝘂𝗺𝗯𝗲𝗿 : @${me.split('@')[0]}
+│𝗣𝗿𝗲𝗺𝗶𝘂𝗺 : ${isPrem ? '✅' : `❌`}
+│
+└─ 𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 
+│𝗧𝗶??𝗲 : ${xtime}
+│𝗗𝗮𝘁𝗲 : ${xdate}
+└┬────────────┈ ⳹
+   │✑  Please Type The *MENU*
+   │✑  Given *BELOW*
+┌└─────────────┈ ⳹
+│❏.allmenu
+│❏.downloadmenu
+│❏.funmenu
+│❏.aimenu
+│❏.groupmenu
+│❏.ownermenu
+│❏.photooxymenu
+│❏.textpromenu
+│❏.ephoto360menu
+│❏.animemenu
+│❏.nsfwmenu
+│❏.randomphotomenu
+│❏.randomvideomenu
+│❏.stickermenu
+│❏.databasemenu
+│❏.stalkermenu
+│❏.bugmenu
+│❏.othermenu
+└─────────────────┈ ⳹`
             let ments = [ownernya, me, mark]        
            XeonBotInc.sendMessage(from, { 
 text: xeonezy,
@@ -2309,18 +2309,18 @@ case 'poll': {
 *Reason:* ${vote[m.chat][0]}
 
 ┌〔 UPVOTE 〕
-➪ 
+│ 
 ├ Total: ${vote[m.chat][1].length}
-➪
-➪ 
-└☯︎☯︎☯︎☯︎
+│
+│ 
+└────
 
 ┌〔 DOWNVOTE 〕
-➪ 
+│ 
 ├ Total: ${vote[m.chat][2].length}
-➪
-➪ 
-└☯︎☯︎☯︎☯︎
+│
+│ 
+└────
 
 Please Type Below
 *${prefix}upvote* - to cast vote
@@ -2342,18 +2342,18 @@ Please Type Below
 *Reason:* ${vote[m.chat][0]}
 
 ┌〔 UPVOTE 〕
-➪ 
+│ 
 ├ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-➪ 
-└☯︎☯︎☯︎☯︎
+│ 
+└────
 
 ┌〔 DOWNVOTE 〕
-➪ 
+│ 
 ├ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-➪ 
-└☯︎☯︎☯︎☯︎
+│ 
+└────
 
 Please Type Below
 *${prefix}upvote* - to upvote
@@ -2375,18 +2375,18 @@ Please Type Below
 *Reason:* ${vote[m.chat][0]}
 
 ┌〔 UPVOTE 〕
-➪ 
+│ 
 ├ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-➪ 
-└☯︎☯︎☯︎☯︎
+│ 
+└────
 
 ┌〔 DOWNVOTE 〕
-➪ 
+│ 
 ├ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-➪ 
-└☯︎☯︎☯︎☯︎
+│ 
+└────
 
 Please Type Below
 *${prefix}upvote* - to upvote
@@ -2404,18 +2404,18 @@ teks_vote = `* VOTE *
 *Reason:* ${vote[m.chat][0]}
 
 ┌〔 UPVOTE 〕
-➪ 
+│ 
 ├ Total: ${upvote.length}
 ${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-➪ 
-└☯︎☯︎☯︎☯︎
+│ 
+└────
 
 ┌〔 DOWNVOTE 〕
-➪ 
+│ 
 ├ Total: ${devote.length}
 ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-➪ 
-└☯︎☯︎☯︎☯︎
+│ 
+└────
 
 *${prefix}deletevote* - to delete votes
 
@@ -2455,7 +2455,7 @@ break
                  let teks = `${themeemoji} *PERSONAL CHAT LIST*\n\nTotal Chat : ${anulistp.length} Chat\n\n`
                  for (let i of anulistp) {
                      let nama = store.messages[i].array[0].pushName
-                     teks += `${themeemoji} *Name :* ${nama}\n${themeemoji} *User :* @${i.split('@')[0]}\n${themeemoji} *Chat :* https://wa.me/${i.split('@')[0]}\n\n☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎\n\n`
+                     teks += `${themeemoji} *Name :* ${nama}\n${themeemoji} *User :* @${i.split('@')[0]}\n${themeemoji} *Chat :* https://wa.me/${i.split('@')[0]}\n\n────────────────────────\n\n`
                  }
                  XeonBotInc.sendTextWithMentions(m.chat, teks, m)
              }
@@ -2465,7 +2465,7 @@ break
                  let teks = `${themeemoji} *GROUP CHAT LIST*\n\nTotal Group : ${anulistg.length} Group\n\n`
                  for (let i of anulistg) {
                      let metadata = await XeonBotInc.groupMetadata(i)
-                     teks += `${themeemoji} *Name :* ${metadata.subject}\n${themeemoji} *Owner :* ${metadata.owner !== undefined ? '@' + metadata.owner.split`@`[0] : 'Unknown'}\n${themeemoji} *ID :* ${metadata.id}\n${themeemoji} *Made :* ${moment(metadata.creation * 1000).tz('Asia/Kolkata').format('DD/MM/YYYY HH:mm:ss')}\n${themeemoji} *Member :* ${metadata.participants.length}\n\n☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎\n\n`
+                     teks += `${themeemoji} *Name :* ${metadata.subject}\n${themeemoji} *Owner :* ${metadata.owner !== undefined ? '@' + metadata.owner.split`@`[0] : 'Unknown'}\n${themeemoji} *ID :* ${metadata.id}\n${themeemoji} *Made :* ${moment(metadata.creation * 1000).tz('Asia/Kolkata').format('DD/MM/YYYY HH:mm:ss')}\n${themeemoji} *Member :* ${metadata.participants.length}\n\n────────────────────────\n\n`
                  }
                  XeonBotInc.sendTextWithMentions(m.chat, teks, m)
              }
@@ -3303,7 +3303,7 @@ let teks = `Google Search From : ${text}\n\n`
 for (let g of res) {
 teks += `⭔ *Title* : ${g.title}\n`
 teks += `⭔ *Description* : ${g.snippet}\n`
-teks += `⭔ *Link* : ${g.link}\n\n☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎\n\n`
+teks += `⭔ *Link* : ${g.link}\n\n────────────────────────\n\n`
 } 
 replygcxeon(teks)
 })
@@ -3324,7 +3324,7 @@ case 'yts': case 'ytsearch': {
                 let teks = 'YouTube Search\n\n Result From '+text+'\n\n'
                 let no = 1
                 for (let i of search.all) {
-                    teks += `${themeemoji} No : ${no++}\n${themeemoji} Type : ${i.type}\n${themeemoji} Video ID : ${i.videoId}\n${themeemoji} Title : ${i.title}\n${themeemoji} Views : ${i.views}\n${themeemoji} Duration : ${i.timestamp}\n${themeemoji} Uploaded : ${i.ago}\n${themeemoji} Url : ${i.url}\n\n☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎\n\n`
+                    teks += `${themeemoji} No : ${no++}\n${themeemoji} Type : ${i.type}\n${themeemoji} Video ID : ${i.videoId}\n${themeemoji} Title : ${i.title}\n${themeemoji} Views : ${i.views}\n${themeemoji} Duration : ${i.timestamp}\n${themeemoji} Uploaded : ${i.ago}\n${themeemoji} Url : ${i.url}\n\n─────────────────\n\n`
                 }
                 XeonBotInc.sendMessage(m.chat, { image: { url: search.all[0].thumbnail },  caption: teks }, { quoted: m })
             }
@@ -3469,11 +3469,11 @@ replygcxeon(`Success deleting bad word ${q}`)
 }
 break
 case 'listbadword':{
-let teks = '┌☯︎☯︎⭓「 *BadWord List* 」\n➪\n'
+let teks = '┌──⭓「 *BadWord List* 」\n│\n'
 for (let x of BadXeon) {
-teks += `➪⭔ ${x}\n`
+teks += `│⭔ ${x}\n`
 }
-teks += `➪\n└☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎⭓\n\n*Totally there are : ${BadXeon.length}*`
+teks += `│\n└────────────⭓\n\n*Totally there are : ${BadXeon.length}*`
 replygcxeon(teks)
 }
 break
@@ -3501,11 +3501,11 @@ replygcxeon(`Success deleting video ${q}`)
 }
 break
 case 'listvideo':{
-let teks = '┌☯︎☯︎⭓「 *Video List* 」\n➪\n'
+let teks = '┌──⭓「 *Video List* 」\n│\n'
 for (let x of VideoXeon) {
-teks += `➪⭔ ${x}\n`
+teks += `│⭔ ${x}\n`
 }
-teks += `➪\n└☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎⭓\n\n*Totally there are : ${VideoXeon.length}*`
+teks += `│\n└────────────⭓\n\n*Totally there are : ${VideoXeon.length}*`
 replygcxeon(teks)
 }
 break
@@ -3533,11 +3533,11 @@ replygcxeon(`Success deleting image ${q}`)
 }
 break
 case 'listimage':{
-let teks = '┌☯︎☯︎⭓「 *Image List* 」\n➪\n'
+let teks = '┌──⭓「 *Image List* 」\n│\n'
 for (let x of ImageXeon) {
-teks += `➪⭔ ${x}\n`
+teks += `│⭔ ${x}\n`
 }
-teks += `➪\n└☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎⭓\n\n*Totally there are : ${ImageXeon.length}*`
+teks += `│\n└────────────⭓\n\n*Totally there are : ${ImageXeon.length}*`
 replygcxeon(teks)
 }
 break
@@ -3565,11 +3565,11 @@ replygcxeon(`Success deleting sticker ${q}`)
 }
 break
 case 'liststicker':{
-let teks = '┌☯︎☯︎⭓「 *Sticker List* 」\n➪\n'
+let teks = '┌──⭓「 *Sticker List* 」\n│\n'
 for (let x of StickerXeon) {
-teks += `➪⭔ ${x}\n`
+teks += `│⭔ ${x}\n`
 }
-teks += `➪\n└☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎⭓\n\n*Totally there are : ${StickerXeon.length}*`
+teks += `│\n└────────────⭓\n\n*Totally there are : ${StickerXeon.length}*`
 replygcxeon(teks)
 }
 break
@@ -3597,11 +3597,11 @@ replygcxeon(`Success deleting vn ${q}`)
 }
 break
 case 'listvn':{
-let teks = '┌☯︎☯︎⭓「 *VN List* 」\n➪\n'
+let teks = '┌──⭓「 *VN List* 」\n│\n'
 for (let x of VoiceNoteXeon) {
-teks += `➪⭔ ${x}\n`
+teks += `│⭔ ${x}\n`
 }
-teks += `➪\n└☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎⭓\n\n*Totally there are : ${VoiceNoteXeon.length}*`
+teks += `│\n└────────────⭓\n\n*Totally there are : ${VoiceNoteXeon.length}*`
 replygcxeon(teks)
 }
 break
@@ -3700,7 +3700,7 @@ case 'listmsg': {
 	        let seplit = Object.entries(global.db.database).map(([nama, isi]) => { return { nama, ...isi } })
 		let teks = ' DATABASE LIST \n\n'
 		for (let i of seplit) {
-		    teks += `${themeemoji} *Name :* ${i.nama}\n${themeemoji} *Type :* ${getContentType(i.message).replace(/Message/i, '')}\n☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎\n\n`
+		    teks += `${themeemoji} *Name :* ${i.nama}\n${themeemoji} *Type :* ${getContentType(i.message).replace(/Message/i, '')}\n────────────────────────\n\n`
 	        }
 	        replygcxeon(teks)
 	    }
@@ -6167,7 +6167,7 @@ const fg = require('api-dylux')
     try {
     let res = await fg.igStalk(args[0])
     let te = `
-┌☯︎☯︎「 *STALKING* 
+┌──「 *STALKING* 
 ▢ *🔖Name:* ${res.name} 
 ▢ *🔖Username:* ${res.username}
 ▢ *👥Follower:* ${res.followersH}
@@ -6175,7 +6175,7 @@ const fg = require('api-dylux')
 ▢ *📌Bio:* ${res.description}
 ▢ *🏝️Posts:* ${res.postsH}
 ▢ *🔗 Link* : https://instagram.com/${res.username.replace(/^@/, '')}
-└☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎`
+└────────────`
      await XeonBotInc.sendMessage(m.chat, {image: { url: res.profilePic }, caption: te }, {quoted: m})
       } catch {
         replygcxeon(`Make sure the username comes from *Instagram*`)
@@ -6617,7 +6617,7 @@ let anu = groups.map((v) => v.id)
 let teks = `⬣ *GROUP LIST BELOW*\n\nTotal Group : ${anu.length} Group\n\n`
 for (let x of anu) {
 let metadata2 = await XeonBotInc.groupMetadata(x)
-teks += `◉ Name : ${metadata2.subject}\n◉ ID : ${metadata2.id}\n◉ Member : ${metadata2.participants.length}\n\n☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎☯︎\n\n`
+teks += `◉ Name : ${metadata2.subject}\n◉ ID : ${metadata2.id}\n◉ Member : ${metadata2.participants.length}\n\n────────────────────────\n\n`
 }
 replygcxeon(teks + `To Use Please Type Command ${prefix}pushcontact idgroup|teks\n\nBefore using, please first copy the group id above`)
 }
