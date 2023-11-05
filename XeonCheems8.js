@@ -135,7 +135,7 @@ try {
         const AntiNsfw = m.isGroup ? ntnsfw.includes(from) : false
         const isAutoSticker = m.isGroup ? autosticker.includes(from) : false
         const antiVirtex = m.isGroup ? ntvirtex.includes(from) : false
-        const Antilinkgc = m.isGroup ? ntlinkgc.includes(m.chat) : false
+        const Antilinkgc = m.isGroup ? ntlinkgc.includes(m.chat) : true
         const AntiLinkYoutubeVid = m.isGroup ? ntilinkytvid.includes(from) : false
         const AntiLinkYoutubeChannel = m.isGroup ? ntilinkytch.includes(from) : false
         const AntiLinkInstagram = m.isGroup ? ntilinkig.includes(from) : false
@@ -1495,52 +1495,50 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
             let me = m.sender
             let timestampe = speed()
             let latensie = speed() - timestampe
-            xeonezy = `┌─❖
-│ Hi 👋 
-└┬❖  ${pushname} 
-┌┤✑  ${xeonytimewisher} 😄
-│└────────────┈ ⳹
-│
+            xeonezy = `┌─☘︎
+➪ Heyyo
+➪ ${pushname} 
+───────────┈
 └─ 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊        
-│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│𝗕𝗼𝘁 : ${global.botname}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${ownernumber}
-│𝗣𝗿𝗲𝗳𝗶𝘅 :  NO-PREFIX 
-│𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
-│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│
-└─ 𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊 
-│𝗡𝗮𝗺𝗲 : ${pushname}
-│𝗡𝘂𝗺𝗯𝗲𝗿 : @${me.split('@')[0]}
-│𝗣𝗿𝗲𝗺𝗶𝘂𝗺 : ${isPrem ? '✅' : `❌`}
-│
-└─ 𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 
-│𝗧𝗶??𝗲 : ${xtime}
-│𝗗𝗮𝘁𝗲 : ${xdate}
+✍︎𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+✍︎𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+✍︎𝗕𝗼𝘁 : ${global.botname}
+✍︎𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${ownernumber}
+✍︎𝗣𝗿𝗲𝗳𝗶𝘅 :  . 
+✍︎𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
+✍︎𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
+✍︎𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+✍︎
+➪─ 𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊 
+☘︎𝗡𝗮𝗺𝗲 : ${pushname}
+☘︎𝗡𝘂𝗺𝗯𝗲𝗿 : @${me.split('@')[0]}
+☘︎𝗣𝗿𝗲𝗺𝗶𝘂𝗺 : ${isPrem ? '✅' : `❌`}
+☘︎
+➪─ 𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 
+☁︎𝗧𝗶??𝗲 : ${xtime}
+☁︎𝗗𝗮𝘁𝗲 : ${xdate}
 └┬────────────┈ ⳹
-   │✑  Please Type The *MENU*
-   │✑  Given *BELOW*
+   ☯︎✑  Please Type The *.MENU*
+   │✑  Shown *BELOW*
 ┌└─────────────┈ ⳹
-│❏.allmenu
-│❏.downloadmenu
-│❏.funmenu
-│❏.aimenu
-│❏.groupmenu
-│❏.ownermenu
-│❏.photooxymenu
-│❏.textpromenu
-│❏.ephoto360menu
-│❏.animemenu
-│❏.nsfwmenu
-│❏.randomphotomenu
-│❏.randomvideomenu
-│❏.stickermenu
-│❏.databasemenu
-│❏.stalkermenu
-│❏.bugmenu
-│❏.othermenu
+☯︎➪.allmenu
+☯︎➪.downloadmenu
+☯︎➪.funmenu
+☯︎➪.aimenu
+☯︎➪.groupmenu
+☯︎➪.ownermenu
+☯︎➪.photooxymenu
+☯︎➪.textpromenu
+☯︎➪.ephoto360menu
+☯︎➪.animemenu
+☯︎➪.nsfwmenu
+☯︎➪.randomphotomenu
+☯︎➪.randomvideomenu
+☯︎➪.stickermenu
+☯︎➪.databasemenu
+☯︎➪.stalkermenu
+☯︎➪.bugmenu
+☯︎➪.othermenu
 └─────────────────┈ ⳹`
             let ments = [ownernya, me, mark]        
            XeonBotInc.sendMessage(from, { 
