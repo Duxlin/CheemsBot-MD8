@@ -5988,7 +5988,7 @@ const reply = `
             await replygcxeon(jawab)
             }
             break
-            case 'is': {
+            case '.is': {
             	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} she virgin?`)
             	let apa = [`Yes`, `No`, `It Could Be`, `Thats right`]
                 let kah = apa[Math.floor(Math.random() * apa.length)]
@@ -5996,7 +5996,7 @@ const reply = `
             await replygcxeon(jawab)
             }
             break
-            case 'when': {
+            case '.when': {
             	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} will i get married?`)
             	let kapan = ['5 More Days', '10 More Days', '15 More Days','20 More Days', '25 More Days','30 More Days','35 More Days','40 More Days','45 More Days','50 More Days','55 More Days','60 More Days','65 More Days','70 More Days','75 More Days','80 More Days','85 More Days','90 More Days','100 More Days','5 Months More', '10 Months More', '15 Months More','20 Months More', '25 Months More','30 Months More','35 Months More','40 Months More','45 Months More','50 Months More','55 Months More','60 Months More','65 Months More','70 Months More','75 Months More','80 Months More','85 Months More','90 Months More','100 Months More','1 More Year','2 More Years','3 More Years','4 More Years','5 More Years','Tomorrow','The Day After Tomorrow']
                 let koh = kapan[Math.floor(Math.random() * kapan.length)]
@@ -6004,7 +6004,7 @@ const reply = `
             await replygcxeon(jawab)
             }
             break
-case 'what': {
+case '.what': {
             	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} is your name?`)
             	let lel = [`Ask Your Gf`, `I Dont Know`, `I Don't Know, Ask Your Father`]
                 let kah = lel[Math.floor(Math.random() * lel.length)]
@@ -6020,7 +6020,7 @@ if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} is 
             await replygcxeon(jawab)
             }
             break
-case 'how': {
+case '.how': {
             	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} to date girl?`)
             	let gimana = [`Ummm...`, `It's Difficult Bro`, `Sorry Bot Can't Answer`, `Try Searching On Google`,`Holy Cow! Really???`,`Dizzy Ah😴, don't wanna answer`,`Ohhh I See:(`,`The Patient, Boss:(`,`Really dude 🙄`]
                 let kah = gimana[Math.floor(Math.random() * gimana.length)]
