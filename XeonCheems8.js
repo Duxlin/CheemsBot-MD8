@@ -10,7 +10,6 @@ const { fetchBuffer, buffergif } = require("./lib/myfunc2")
 const { rentfromxeon, conns } = require('./RentBot')
 const { uptotelegra } = require('./scrape/upload')
 const { msgFilter } = require('./lib/antispam')
-
 const { ytDonlodMp3, ytDonlodMp4, ytPlayMp3, ytPlayMp4, ytSearch } = require('./scrape/yt')
 const anon = require('./lib/menfess') 
 const scp1 = require('./scrape/scraper') 
@@ -39,7 +38,6 @@ const StickerXeon = JSON.parse(fs.readFileSync('./XeonMedia/database/xeonsticker
 const ImageXeon = JSON.parse(fs.readFileSync('./XeonMedia/database/xeonimage.json'))
 const VideoXeon = JSON.parse(fs.readFileSync('./XeonMedia/database/xeonvideo.json'))
 const BadXeon = JSON.parse(fs.readFileSync('./database/bad.json'))
-
 let autosticker = JSON.parse(fs.readFileSync('./database/autosticker.json'))
 let ntnsfw = JSON.parse(fs.readFileSync('./database/nsfw.json'))
 let ntvirtex = JSON.parse(fs.readFileSync('./database/antivirus.json'))
@@ -237,7 +235,7 @@ const setting = db.settings[botNumber]
     		if (!isNumber(setting.status)) setting.status = 0
     		if (!('autobio' in setting)) setting.autobio = false
 	    } else global.db.settings[botNumber] = {
-    	    anticall: true,
+    	    anticall: false,
     		status: 0,
     		autobio: false
 	    }
