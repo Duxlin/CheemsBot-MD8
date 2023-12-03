@@ -22,8 +22,8 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['2347082252014','2348063746874'] //ur owner number
-global.ownernomer = "2347082252014","2348063746874" //ur owner number2
+global.owner = ['2347082252014','2349167632397','46724001843'] //ur owner number
+global.ownernomer = "2347082252014","2349167632397","46724001843" //ur owner number2
 global.ownername = "Quadhir" //ur owner name
 global.ytname = "YT: Duxbot6413" //ur yt chanel name
 global.socialm = "GitHub: Duxlin" //ur github or insta name
@@ -31,7 +31,7 @@ global.location = "Nigeria, Lagos" //ur location
 
 //new
 global.botname = "Dux Bot MD"
-global.ownernumber = '2347082252014','2348063746874'
+global.ownernumber = '2347082252014','2349167632397','46724001843'
 global.ownername = '𝐈𝐌𝐌𝐎𝐑𝐓𝐀𝐋 𝐃𝐔𝐗'
 global.ownerNumber = ["2347082252014@s.whatsapp.net"]
 global.ownerweb = "https://youtube.com/@Duxlin"
@@ -39,7 +39,7 @@ global.websitex = "https://youtu.be/duxbot6413"
 global.wagc = "https://chat.whatsapp.com/EWIdvzSV6bF1nnikpCwf7K"
 global.themeemoji = '🌝'
 global.wm = "Dux Bot Inc."
-global.botscript = 'https://chat.whatsapp.com/ILVtkVZJyfZ2OJOdBCdUOn' //script link
+global.botscript = 'https://chat.whatsapp.com/EWIdvzSV6bF1nnikpCwf7K' //script link
 global.packname = "Sticker By 𝐈𝐦𝐦𝐨𝐫𝐭𝐚𝐥 𝐃𝐮𝐱"
 global.author = "𝐈𝐦𝐦𝐨𝐫𝐭𝐚𝐥 𝐃𝐮𝐱\n\n+2347082252014"
 global.creator = "2347082252014@s.whatsapp.net"
