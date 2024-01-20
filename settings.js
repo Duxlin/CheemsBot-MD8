@@ -7,7 +7,7 @@ global.autoRecord = false //auto recording (true to on, false to off)
 global.autoblockmorroco = false //auto block 212 (true to on, false to off)
 global.autokickmorroco = false //auto kick 212 (true to on, false to off) 
 global.antispam = false //auto kick spammer (true to on, false to off)
-global.anticall = false
+global.anticall = true
 
 
 //if api key expire, u can generate one from here: https://beta.openai.com/account/api-keys
